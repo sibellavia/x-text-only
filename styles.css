@@ -1,0 +1,7 @@
+.text-only-mode .text-only-hidden {
+  display: none !important;
+}
+
+#text-only-toggle {
+  font-family: Arial, sans-serif !important;
+}

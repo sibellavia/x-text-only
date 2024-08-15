@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "X text-only feed",
+  "version": "1.0",
+  "description": "filters x feed to show only text posts and links (chromium-based browsers only)",
+  "host_permissions": ["https://x.com/*", "https://twitter.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://x.com/*", "https://twitter.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}
